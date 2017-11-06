@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="6dp"
+    >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+    <Button
+        android:layout_alignParentLeft="true"
+        android:layout_weight="4"
+        android:text="" android:id="@+id/button1"
+        android:background="@color/button1low"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        ></Button>
+    <Button
+        android:layout_alignParentRight="true"
+        android:layout_weight="4"
+        android:text="" android:id="@+id/button2"
+        android:background="@color/button2low"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        ></Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+
+    <Button
+        android:layout_alignParentLeft="true"
+        android:text="" android:id="@+id/button3"
+        android:layout_weight="4"
+        android:background="@color/button3low"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        ></Button>
+    <Button
+        android:layout_alignParentRight="true"
+        android:layout_weight="4"
+        android:text="" android:id="@+id/button4"
+        android:background="@color/button4low"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        ></Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>

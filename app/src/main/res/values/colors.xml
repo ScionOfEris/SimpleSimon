@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="button1low">#77777700</color>
+    <color name="button2low">#77000077</color>
+    <color name="button3low">#77007700</color>
+    <color name="button4low">#77770000</color>
+    <color name="button1high">#ffffff00</color>
+    <color name="button2high">#ff0000ff</color>
+    <color name="button3high">#ff00ff00</color>
+    <color name="button4high">#ffff0000</color>
+
+</resources>
