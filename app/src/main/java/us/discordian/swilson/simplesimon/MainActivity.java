@@ -25,16 +25,14 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         Log.d("init", "initializing toggle");
     }
 
-    boolean junk = mytoggle.setToggle(true);
+    boolean junk = mytoggle.setToggle(false);
     // initialize other stuff
     Button button1;
     Button button2;
     Button button3;
     Button button4;
-    Button button5;
 
     ToneGenerator tonegen;
-
 
 
     @Override
@@ -44,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         button1 = (Button) findViewById(R.id.button1);
         button2 = (Button) findViewById(R.id.button2);
